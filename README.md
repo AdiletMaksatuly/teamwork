@@ -1,6 +1,7 @@
 # Teamwork
 
 This project was developed as part of the free Angular course from [The Rolling Scopes School](https://rs.school/)
+
 Deploy: https://app-teamwork.netlify.app/welcome
 
 ## About this project
