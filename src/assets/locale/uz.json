@@ -7,20 +7,20 @@
     },
     "members": {
       "first": {
-        "desc": "Made login and improved app performance",
+        "desc": "Built the initial structure of the application: localization, routing, authorization, API requests",
         "name": "Vasily Gusev"
       },
       "second": {
         "name": "Adilet Maksatuly",
-        "desc": "Made Drag and Drop and implemented communication with the server"
+        "desc": "Developed Board and EditProfile pages layout and logic. Implemented showing server errors as popups. Adaptive layout of whole app. Refactor King\uD83D\uDE0E"
       },
       "third": {
         "name": "Shahzod Kakhkhorov",
-        "desc": "Developed the application architecture, routing and configured NgRx"
+        "desc": "Developed Board and Main pages, Drag'n'Drop and communication with the server. Configured NgRx store of whole app"
       },
       "fourth": {
         "name": "Dimitrii Shabanov",
-        "desc": "Developed the application components"
+        "desc": "Developed Not Found layout and logic"
       }
     },
     "notification": {
