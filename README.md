@@ -1,4 +1,4 @@
-# ProjectManagementApp
+# Teamwork
 
 This project was developed as part of the free Angular course from [The Rolling Scopes School](https://rs.school/)
 
