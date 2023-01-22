@@ -2,14 +2,13 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-
 import { ELocales } from '../app/shared/enums/locales.enum';
 
 export const environment = {
   production: false,
   locales: Object.keys(ELocales),
   defaultLocale: ELocales.EN,
-  baseUrl: 'https://teamwork-app.herokuapp.com/',
+  baseUrl: 'https://teamwork.herokuapp.com/',
 };
 
 /*
