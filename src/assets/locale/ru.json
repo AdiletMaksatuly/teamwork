@@ -69,17 +69,37 @@
       "title": "Разработчики"
     }
   },
+  "shared": {
+    "modal": {
+      "board": {
+        "create": "Новая доска",
+        "label": {
+          "title": "Название"
+        }
+      },
+      "column": {
+        "create": "Новая колонка",
+        "label": {
+          "title": "Название"
+        }
+      },
+      "task": {
+        "create": "Новая задача",
+        "edit": "Редактировать задачу",
+        "label": {
+          "title": "Название",
+          "description": "Описание"
+        }
+      },
+      "submit-btn": "Сохранить",
+      "cancel-btn": "Отменить"
+    }
+  },
   "board": {
     "create-column-btn": "Создать колонку",
     "create-task-btn": "Создать задачу",
     "header": {
       "back-btn": "Назад"
-    },
-    "create-column-modal": {
-      "title": "Новая колонка",
-      "column-title": "Название",
-      "cancel-btn": "Отменить",
-      "submit-btn": "Сохранить"
     }
   },
   "main": {
@@ -146,9 +166,9 @@
       "delete-btn": "Удалить профиль"
     }
   },
-	"languages": {
-		"en": "АНГ",
-		"ru": "РУС",
+  "languages": {
+    "en": "АНГ",
+    "ru": "РУС",
     "uz": "УЗБ"
-	}
+  }
 }

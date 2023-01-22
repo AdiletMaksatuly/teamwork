@@ -49,15 +49,15 @@ export class TaskComponent {
     dialogConfig.autoFocus = 'dialog';
 
     dialogConfig.data = {
-      title: 'Create Task',
+      title: 'shared.modal.task.edit',
       formFields: [
         {
-          label: 'Title',
+          label: 'shared.modal.task.label.title',
           name: 'title',
           value: this.task.title,
         },
         {
-          label: 'Description',
+          label: 'shared.modal.task.label.description',
           name: 'description',
           value: this.task.description,
         },

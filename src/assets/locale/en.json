@@ -71,17 +71,37 @@
       "title": "Our Team"
     }
   },
+  "shared": {
+    "modal": {
+      "board": {
+        "create": "Create board",
+        "label": {
+          "title": "Title"
+        }
+      },
+      "column": {
+        "create": "Create column",
+        "label": {
+          "title": "Title"
+        }
+      },
+      "task": {
+        "create": "Create task",
+        "edit": "Edit task",
+        "label": {
+          "title": "Title",
+          "description": "Description"
+        }
+      },
+      "submit-btn": "Save",
+      "cancel-btn": "Cancel"
+    }
+  },
   "board": {
     "create-column-btn": "Create column",
     "create-task-btn": "Create task",
     "header": {
       "back-btn": "Back to main"
-    },
-    "create-column-modal": {
-      "title": "Create column",
-      "column-title": "Title",
-      "cancel-btn": "Cancel",
-      "submit-btn": "Save"
     }
   },
   "main": {

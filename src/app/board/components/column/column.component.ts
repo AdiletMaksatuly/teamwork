@@ -65,14 +65,14 @@ export class ColumnComponent {
 
     dialogConfig.autoFocus = 'dialog';
     dialogConfig.data = {
-      title: 'Create Task',
+      title: 'shared.modal.task.create',
       formFields: [
         {
-          label: 'Title',
+          label: 'shared.modal.task.label.title',
           name: 'title',
         },
         {
-          label: 'Description',
+          label: 'shared.modal.task.label.description',
           name: 'description',
         },
       ],

@@ -27,9 +27,9 @@
       "success": "Saqalandi!",
       "close-btn": "Yopish",
       "errors": {
-      "500": "Server xatosi",
-      "400": "Noto'g'ri so'rov",
-      "404": "Soʻralgan manba topilmadi!"
+        "500": "Server xatosi",
+        "400": "Noto'g'ri so'rov",
+        "404": "Soʻralgan manba topilmadi!"
       }
     },
     "not-found": {
@@ -68,17 +68,37 @@
       "title": "Jamoa"
     }
   },
+  "shared": {
+    "modal": {
+      "board": {
+        "create": "Yangi loyiha",
+        "label": {
+          "title": "Sarlavha"
+        }
+      },
+      "column": {
+        "create": "Yangi ustun",
+        "label": {
+          "title": "Sarlavha"
+        }
+      },
+      "task": {
+        "create": "Vazifa yarating",
+        "edit": "Vazifani tahrirlash",
+        "label": {
+          "title": "Sarlavha",
+          "description": "Tavsif"
+        }
+      },
+      "submit-btn": "Saqlash",
+      "cancel-btn": "Bekor qilish"
+    }
+  },
   "board": {
     "create-column-btn": "Ustun yaratish",
     "create-task-btn": "Vazifa yarating",
     "header": {
       "back-btn": "Orqaga"
-    },
-    "create-column-modal": {
-      "title": "Yangi ustun",
-      "column-title": "Sarlavha",
-      "cancel-btn": "Bekor qilish",
-      "submit-btn": "Saqlash"
     }
   },
   "main": {

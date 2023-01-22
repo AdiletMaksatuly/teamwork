@@ -3,12 +3,12 @@
     <button mat-button [mat-dialog-close]="false" class="header__close-btn">
       <mat-icon>close</mat-icon>
     </button>
-    <h1 mat-dialog-title>{{ data.title }}</h1>
+    <h1 mat-dialog-title>{{ data.title | translate }}</h1>
   </header>
   <div class="modal__content" mat-dialog-content>
     <ng-container *ngIf="data.formFields">
       <mat-form-field *ngFor="let field of data.formFields">
-        <mat-label>{{ field.label }}</mat-label>
+        <mat-label>{{ field.label | translate }}</mat-label>
         <input
           [(ngModel)]="formValues[field.name]"
           [name]="field.name"
@@ -18,12 +18,12 @@
     </ng-container>
   </div>
   <footer class="modal__footer" mat-dialog-actions>
-    <button mat-button [mat-dialog-close]="false">Cancel</button>
+    <button mat-button [mat-dialog-close]="false">{{ 'shared.modal.cancel-btn' | translate }}</button>
     <button
       mat-raised-button
       type="submit"
       color="primary"
       [disabled]="!modalForm.form.valid"
-    >Save</button>
+    >{{ 'shared.modal.submit-btn' | translate }}</button>
   </footer>
 </form>

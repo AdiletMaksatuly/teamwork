@@ -38,10 +38,10 @@ export class HeaderComponent {
 
     dialogConfig.autoFocus = 'dialog';
     dialogConfig.data = {
-      title: 'Create Column',
+      title: 'shared.modal.column.create',
       formFields: [
         {
-          label: 'Title',
+          label: 'shared.modal.column.label.title',
           name: 'title',
         },
       ],

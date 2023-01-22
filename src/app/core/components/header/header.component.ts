@@ -69,10 +69,10 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
     dialogConfig.autoFocus = 'dialog';
     dialogConfig.data = {
-      title: 'Create Board',
+      title: 'shared.modal.board.create',
       formFields: [
         {
-          label: 'Title',
+          label: 'shared.modal.board.label.title',
           name: 'title',
         },
       ],
